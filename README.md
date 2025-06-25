@@ -19,10 +19,6 @@ This project aims to develop a machine learning model to predict **maternal tele
 > ⚠️ This project does **not** include real patient data or live API integration.  
 > It is a simulated portfolio project meant to demonstrate machine learning and NLP modeling skills with an emphasis on healthcare applications, fairness, and robustness.
 
----
-
-## 🧱 Optional Additions
-
 ### 📦 Deliverables
 - Simulated dataset (structured + messages)
 - Jupyter notebooks with modeling and evaluation
