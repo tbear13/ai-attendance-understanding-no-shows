@@ -28,5 +28,5 @@ This project aims to develop a machine learning model to predict **maternal tele
 
 ### 🚫 Out of Scope
 - HIPAA-compliant handling of real patient data
-- Integration with live scheduling systems (e.g., Acuity, Charm)
+- Integration with live scheduling systems
 - Production-grade deployment
