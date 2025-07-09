@@ -1,6 +1,13 @@
 # ai-attendance-understanding-no-shows
 AI for Attendance: Understanding No-Shows in Maternal Virtual Visits
 
+## Project Updates (July 2025)
+
+- Added synthetic patient messages tied to appointment outcomes (Show, No-Show, Cancelled)
+- Merged these into the full dataset (~10,000 patients) with 500 message records to simulate real patient engagement rates
+- Saved the final dataset as `maternal_telehealth_full_dataset.csv` for downstream EDA and modeling
+
+
 ## 🔍 Scope
 
 This project aims to develop a machine learning model to predict **maternal telehealth appointment no-shows** using both structured patient data and unstructured message text. The final solution will combine **synthetic healthcare data generation**, **natural language processing (NLP)** for message analysis, and **classification modeling** to identify patients at risk of missing appointments.
