@@ -9,7 +9,7 @@ AI for Attendance: Understanding No-Shows in Maternal Virtual Visits
 
 ## 📂 Notebook
 
-- [🔍 Data Simulation Notebook]([./mat_telehealth_data.ipynb](https://github.com/tbear13/ai-attendance-understanding-no-shows/blob/7062cc2505127d67d2654e839d80f670a553ca2e/mat_telehealth_data_repo.ipynb))
+- [🔍 Data Simulation Notebook](mat_telehealth_data_repo.ipynb)
 
 ## 🔍 Scope
 
