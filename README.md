@@ -1,12 +1,15 @@
 # ai-attendance-understanding-no-shows
 AI for Attendance: Understanding No-Shows in Maternal Virtual Visits
 
-## Project Updates (July 2025)
+# Project Updates (July 2025)
 
 - Added synthetic patient messages tied to appointment outcomes (Show, No-Show, Cancelled)
 - Merged these into the full dataset (~10,000 patients) with 500 message records to simulate real patient engagement rates
 - Saved the final dataset as `maternal_telehealth_full_dataset.csv` for downstream EDA and modeling
 
+## 📂 Notebook
+
+- [🔍 Data Simulation Notebook]([./mat_telehealth_data.ipynb](https://github.com/tbear13/ai-attendance-understanding-no-shows/blob/7062cc2505127d67d2654e839d80f670a553ca2e/mat_telehealth_data_repo.ipynb))
 
 ## 🔍 Scope
 
