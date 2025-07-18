@@ -2,14 +2,36 @@
 AI for Attendance: Understanding No-Shows in Maternal Virtual Visits
 
 # Project Updates (July 2025)
+### 🔧 Tasks Completed:
+- Standardized column names to lowercase and snake_case for consistency
+- Handled missing values:
+   1. Categorical (patient_message, message_intent, stress_level) → filled with "None"
+   2. Numeric (baby_age_months) → filled with 0 for unborn babies
+- Verified Boolean columns were correctly typed as True/False
+- Removed exact duplicate rows
+- Filtered out invalid values, such as negative baby ages
+- Engineered a new feature message_length to capture word count from patient_message (excluding placeholder values)
+- Saved the cleaned dataset as maternal_telehealth_data_clean.csv for downstream use
+### 📈 Output:
+- Cleaned dataset shape: 10,150 rows × 19 columns
+- File generated: maternal_telehealth_data_clean.csv
+### 🚀 Next Phase:
+- The upcoming EDA (Exploratory Data Analysis) update will include:
+- Visual summaries of payer mix, visit types, referral sources
+- Message content trends via word clouds
+- Timeline plots of appointment scheduling and no-shows
+### 📍 Stay tuned for Week 5: Visualizing Patterns in No-Show Behavior
+
+## Project Updates (July 2025)
 
 - Added synthetic patient messages tied to appointment outcomes (Show, No-Show, Cancelled)
 - Merged these into the full dataset (~10,000 patients) with 500 message records to simulate real patient engagement rates
 - Saved the final dataset as `maternal_telehealth_full_dataset.csv` for downstream EDA and modeling
 
-## 📂 Notebook
+## 📂 Notebook(s)
 
 - [🔍 Data Simulation Notebook](mat_telehealth_data_repo.ipynb)
+- [🧼 Data Cleaning & Preparation](cleaning_data_mat_project_repo.ipynb)
 
 ## 🔍 Scope
 
